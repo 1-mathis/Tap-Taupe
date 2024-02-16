@@ -1,0 +1,134 @@
+::selection {
+  background-color: #6f4e37;
+  color: #9a7b4f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0%;
+  background-color: #daa06d;
+  font-family: kristen Itc, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #9a7b4f;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 35%;
+  background-color: #6f4e37;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+  color: #daa06d;
+
+  background-color: none;
+  padding: 0px;
+  transform: rotate(360deg);
+}
+
+.all-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all-logo h1 {
+  margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 20px;
+  background-image: url(img/taupe.png);
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  margin: 10px auto;
+}
+
+h3 {
+  text-align: center;
+  color: #000;
+  margin: 20px;
+}
+
+ul {
+  list-style: number;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.tittle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #6f4e37;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #9a7b4f;
+    height: 100px;
+    padding-top: 30px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 60px;
+  }
+
+  .all-logo h1 {
+    display: none;
+  }
+
+  .logo {
+    padding: 30px;
+  }
+}

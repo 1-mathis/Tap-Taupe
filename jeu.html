@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/jeu.css">
+  <link rel="shortcut icon" href="img/taupe.png" type="image/x-icon">
+  <title>Tap ' Taupe</title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="all-logo">
+      <div class="logo"></div>
+      <h1>Tap ' Taupe !</h1>
+    </div>
+
+    <nav>
+
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house"
+          viewBox="0 0 16 16">
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+        </svg>
+      </a>
+
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-text"
+          viewBox="0 0 16 16">
+          <path
+            d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5M5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z" />
+          <path
+            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1" />
+        </svg>
+      </a>
+
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar"
+          viewBox="0 0 16 16">
+          <path
+            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+        </svg>
+      </a>
+
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+
+      <div class="jeu-informations">
+
+        <div class="infos-game">
+
+          <div class="titre-infos-parametres">
+            <div class="informations">
+              <h3>informations</h3>
+            </div>
+
+          </div>
+
+          <div class="input-name-user">
+            <p id="outputText"></p>
+          </div>
+
+
+
+          <div class="time-score">
+            <div id="score" class="score">
+              <p>Score : 0</p>
+            </div>
+
+            <div id="timer" class="time">
+              <p>Temps restant : 30 s</p>
+            </div>
+
+
+          </div>
+
+
+          <div class="buttons-infos">
+            <button id="startButton" class="start-button">lancer la partie</button>
+            <button id="pauseButton" class="pause-button">pause</button>
+            <a href="avant-jeu.html" class="restart-button">recommencer la partie</a>
+          </div>
+
+        </div>
+
+        <div class="boxes">
+
+
+          <div class="etage">
+
+
+
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+
+          </div>
+
+          <div class="etage">
+
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+
+          </div>
+
+          <div class="etage">
+
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- <div class="bottom-game">
+
+        <p>Attention: UNE FOIS LE BOUTON DE LANCEMENT DE PARTIE EST CLIQUé, VEUILLEZ NE PAS RAPPUYER SUR LE BOUTON</p>
+        <p>car je n'arrive pas à l'enlever dès l'utilisateur clique</p>
+        <p>VEUILLEZ TOUCHER A AUCUNS D'AUTRES BOUTONS, JUSTE A CLIQUER SUR LES COULEURS. MERCI.</p>
+
+      </div> -->
+
+      <script src="jeu.js"></script>
+
+    </section>
+  </main>
+
+</body>
+
+</html>
