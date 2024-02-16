@@ -24,5 +24,8 @@ https://www.figma.com/file/BOkBj8BpPH9VkdJjCAadAP/Le-jeu-de-la-taupe?type=design
 Voici le lien du trello :
 https://trello.com/invite/b/XeRAHslW/ATTI949343d6d0ca72d202cbaf8abb3f66c9FA82C74B/le-jeu-de-la-taupe
 
+Lien de mon organisation (sur Monday.com) :
+https://mathisfer243s-team.monday.com/boards/1398609992
+
 
 (Tout les liens seront dans le compte rendu sur simplonline)
