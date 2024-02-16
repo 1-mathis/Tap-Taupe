@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const colorPercentages = {
     "#D70040": 25, // Rouge
     "#32cd32": 70, // Vert
-    "#00BFFF": 700, // Bleu
+    "#00BFFF": 700000000, // Bleu
   };
 
   // Lancer la partie
