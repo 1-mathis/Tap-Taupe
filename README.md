@@ -28,4 +28,4 @@ Lien de mon organisation (sur Monday.com) :
 https://mathisfer243s-team.monday.com/boards/1398609992
 
 
-(Tout les liens seront dans le compte rendu sur simplonline)
+J'ai pas pu mettre à jour assez souvent mon trello et mon monday.com pour mettre vraiment tout ce que j'ai fait mais c'est une partie des étapes que j'ai faites pour le finir 
