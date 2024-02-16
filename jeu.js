@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else if (rgbColor === "rgb(50, 205, 50)") {
         updateScore(1); // Vert: ajoute 1 au score
       } else if (rgbColor === "rgb(0, 191, 255)") {
-        updateScore(3); // Bleu: ajoute 3 au score
+        updateScore(5); // Bleu: ajoute 5 au score
       }
 
       // Éteindre la couleur après le clic
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const colorPercentages = {
     "#D70040": 25, // Rouge
     "#32cd32": 70, // Vert
-    "#00BFFF": 100, // Bleu
+    "#00BFFF": 700, // Bleu
   };
 
   // Lancer la partie
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return savedData !== null ? JSON.parse(savedData) : defaultValue;
   }
 
-  // Fonction pour sauvegarder des données
+  // Sauvegarde des données
   function saveData(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
   }
@@ -142,13 +142,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Restaurer le temps restant sauvegardé
   let timeLeft = getSavedData("timeLeft", 30);
-  document.getElementById("timer").textContent = "Temps restant: " + timeLeft + " s";
+  document.getElementById("timer").textContent =
+    "Temps restant: " + timeLeft + " s";
 
-  // Votre code existant continue ici...
-
-  // Fonction pour mettre à jour le score
+  // Mise à jour du score
   function updateScore(points) {
     score += points;
     document.getElementById("score").textContent = "Score: " + score + " pts";
     saveData("score", score); // Sauvegarder le score
   }
+});
